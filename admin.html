@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/admin.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><a href="admin.html">Admin Panel</a></div>
+    <ul class="nav-links">
+      <li><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <section>
+      <h2>Add New Movie</h2>
+      <form id="movieForm">
+        <input id="movieTitle" type="text" placeholder="Title" required />
+        <input id="movieGenre" type="text" placeholder="Genre" required />
+        <input id="moviePoster" type="text" placeholder="Poster URL" required />
+        <input id="movieTrailer" type="text" placeholder="Trailer URL" required />
+        <button type="submit">Add Movie</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Add New Snack</h2>
+      <form id="snackForm">
+        <input id="snackName" type="text" placeholder="Snack Name" required />
+        <input id="snackPrice" type="number" placeholder="Price" required />
+        <button type="submit">Add Snack</button>
+      </form>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Smart Cinema. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="scripts/admin.js"></script>
+</body>
+</html>

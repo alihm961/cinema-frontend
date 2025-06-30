@@ -1,0 +1,13 @@
+.profileInfo {
+  background-color: #222;
+  padding: 2rem;
+  border-radius: 6px;
+  max-width: 600px;
+  margin: 2rem auto;
+  color: #fff;
+}
+
+#profileInfo h3 {
+  margin-bottom: 1rem;
+  color: orange;
+}

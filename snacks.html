@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Cinema - Snacks</title>
+  <link rel="stylesheet" href="styles/main.css" />
+  <link rel="stylesheet" href="styles/snacks.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo"><a href="movies.html">Smart Cinema</a></div>
+    <ul class="nav-links">
+      <li><a href="movies.html">Movies</a></li>
+      <li><a href="booking.html">Book</a></li>
+      <li><a href="snacks.html">Snacks</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2 class="page-title">Snacks Menu</h2>
+    <div class="flex-grid">
+      <div class="item-card">
+        <img src="uploads/popcorn.jpg" alt="Popcorn" />
+        <h3>Popcorn</h3>
+        <p>Freshly popped buttery popcorn served hot.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2025 Smart Cinema. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="scripts/booking.js"></script>
+</body>
+</html>
